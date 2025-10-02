@@ -11,4 +11,32 @@
   #hamburger-menu {
     display: none;
   }
+
+  #card-wrapper {
+    flex-direction: row;
+  }
+
+  #desktop-view {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 1rem;
+    height: 80vh;
+    width: 25vw;
+    padding: 1rem;
+  }
+  #desktop-view h3 {
+    text-align: center;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid black;
+  }
+
+  #desktop-view-pages {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem;
+  }
 }

@@ -21,7 +21,29 @@
   padding-top: 0.5rem;
 }
 
+/* Card Wrapper */
+
 /* All Pages */
+
+#card-wrapper {
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#menu-icon {
+  height: 2rem;
+}
+
 #desktop-view {
   display: none;
 }
+
+/* Cards  */
+
+/* Card Box  */
+#card-box {
+    
+}
+
+/* Edit Box  */

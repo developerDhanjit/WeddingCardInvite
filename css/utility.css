@@ -3,6 +3,24 @@
   background: linear-gradient(to bottom, #ffffff, #f0f0f0);
 }
 
+.font-roboto {
+  font-family: "Roboto", Georgia, "Times New Roman", Times, serif;
+}
+
 /* Mobile View Specific */
 
 /* Desktop View Specific */
+.gradient-bg-pages {
+  background: linear-gradient(to bottom, #f7f3f3, #faf3f3);
+}
+
+.page {
+  width: 70%;
+  aspect-ratio: 9/16;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+}

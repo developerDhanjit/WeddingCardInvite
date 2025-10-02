@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Container Styles  */
+#main {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Header  */
+#header {
+  font-size: large;
+  text-align: center;
+  font-family: "Roboto", Georgia, "Times New Roman", Times, serif;
+  background-image: linear-gradient(rgb(228, 41, 72), rgb(0, 0, 145));
+  color: transparent;
+  background-clip: text;
+  padding-top: 0.5rem;
+}
+
+/* All Pages */
+#desktop-view {
+  display: none;
+}

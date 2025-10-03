@@ -23,7 +23,7 @@
     border: 2px solid black;
     border-radius: 1rem;
     height: 80vh;
-    width: 25vw;
+    width: 22vw;
     padding: 1rem;
   }
   #desktop-view h3 {
@@ -46,17 +46,22 @@
     border: 1px solid black;
   }
 
-  #card-box {
+  .swiper {
+    width: 100%;
+    min-height: 88vh;
+  }
+
+  .card-box {
     flex-direction: row;
     width: 100%;
     padding: 1rem 1rem;
   }
 
-  #main-card {
+  .main-card {
     width: 30%;
     aspect-ratio: 9/16;
   }
-  #edit-box {
+  .edit-box {
     width: 60%;
     height: 70vh;
   }

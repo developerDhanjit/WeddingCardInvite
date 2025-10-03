@@ -47,8 +47,19 @@
   padding: 1rem 1rem;
 }
 
+.swiper {
+  width: 100%;
+  min-height: 88vh;
+  background-image: linear-gradient(
+    to top,
+    rgb(255, 255, 255),
+    rgb(209, 209, 241)
+  );
+  border-radius: 2rem;
+}
+
 /* Card Box  */
-#card-box {
+.card-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,7 +71,7 @@
 }
 
 /* Main Card  */
-#main-card {
+.main-card {
   width: 80%;
   aspect-ratio: 9/16;
   border: 1px solid black;
@@ -68,8 +79,17 @@
 
 /* Edit Box  */
 
-#edit-box {
+.edit-box {
   width: 100%;
   height: 28vh;
   border: 1px solid black;
+}
+
+/* Swiper Button  */
+.swiper-button-prev {
+  display: none;
+}
+
+.swiper-button-next {
+  display: none;
 }

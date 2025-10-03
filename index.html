@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
     <link rel="stylesheet" href="./css/utility.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
   </head>
 
   <body>
@@ -37,34 +41,80 @@
             <h3 class="font-roboto">All Pages</h3>
             <div id="desktop-view-pages">
               <div class="page">
-                <div class="box"></div>
+                <img
+                  class="box"
+                  src="./assets/wed-1.jpg"
+                  alt="Wedding Card Background"
+                />
               </div>
               <div class="page">
-                <div class="box"></div>
+                <img
+                  class="box"
+                  src="./assets/wed2.png"
+                  alt="Wedding Card Background"
+                />
               </div>
               <div class="page">
-                <div class="box"></div>
+                <img
+                  class="box"
+                  src="./assets/wed3.png"
+                  alt="Wedding Card Background"
+                />
               </div>
               <div class="page">
-                <div class="box"></div>
+                <img
+                  class="box"
+                  src="./assets/wed4.jpg"
+                  alt="Wedding Card Background"
+                />
               </div>
               <div class="page">
-                <div class="box"></div>
+                <img
+                  class="box"
+                  src="./assets/wed5.jpg"
+                  alt="Wedding Card Background"
+                />
               </div>
             </div>
           </section>
         </section>
 
         <!-- Each Page Section  -->
-        <section id="cards">
-          <section id="card-box">
-            <!--  Main Card -->
-            <div id="main-card">main card</div>
-            <!-- Card Edit Section -->
-            <div id="edit-box">edit box</div>
+        <section class="swiper">
+          <section class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="card-box">
+                <div class="main-card">
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  1
+                  <div class="swiper-button-next"></div>
+                </div>
+                <div class="edit-box">2</div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="card-box">
+                <div class="main-card">
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev"></div>
+                  1
+                  <div class="swiper-button-next"></div>
+                </div>
+                <div class="edit-box">2</div>
+              </div>
+            </div>
           </section>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
         </section>
       </section>
     </main>
+    <script type="module" src="./js/draggable.mjs"></script>
   </body>
 </html>

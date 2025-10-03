@@ -55,7 +55,8 @@
     rgb(255, 255, 255),
     rgb(209, 209, 241)
   );
-  border-radius: 2rem;
+  border-radius: 1rem;
+  padding: 3rem 0rem;
 }
 
 /* Card Box  */
@@ -74,7 +75,7 @@
 .main-card {
   width: 80%;
   aspect-ratio: 9/16;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 /* Edit Box  */
